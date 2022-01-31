@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500;1,700&family=Kaisei+Tokumin:wght@400;700&family=Oswald:wght@700&family=Roboto+Slab:wght@900&family=Roboto:ital,wght@0,400;0,500;1,400;1,500;1,900&family=Zen+Antique+Soft&display=swap');
+body{
+    font-family: 'DM Sans', sans-serif;
+
+}
+.banner{
+    background-image: url('./img/photo-1522202757859-7472b0973c69.jfif');
+    height: 85vh;
+    color: white;
+    
+    background-size: cover;
+    background-position:top center;
+    /* position: absolute; */
+    
+
+
+}
+.banner-desp{
+    /* position: absolute; */
+}
+.banner-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 11%;
+    padding-left: 10%;
+    
+    /* color: white; */
+    
+}
+.banner-content p{
+    width: 60%;
+    
+    text-align: start;
+    padding-left: 10%;
+}
+.banner-content button{
+    margin-left: 10%;
+}
+
+.font{
+    font-size: 50px;
+    font-weight: 700; 
+}
+
+
+/* Service page */
+
+.service-bg{
+    background-color: #FCFDFE;
+}
+
+.service{
+    font-size: 27px;
+    font-weight: 900;
+    
+}
+
+.service-card{
+    width: 75%;
+    margin: auto;
+}
+.service__img{
+    height: 280px;
+    width: 220px;
+    margin: auto;
+    
+
+
+}
+.service--card-bg{
+    box-shadow: 2px 3px rgb(238, 238, 238);
+    border-radius: 10px;
+}
+
+/* Why Choose us page*/
+.choose-us{
+    background-color: #F4F7FA;
+    
+}
+.choose--bold{
+    font-size: 27px;
+    font-weight: 900;
+    
+}
+.choose-us-desp{
+    width: 70%;
+    margin: auto;
+}
+.choose-us-desp p{
+font-size: 13px;
+}
+.dot {
+    height: 27px;
+    width: 27px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+    display: inline-block;
+    color: rgb(11, 11, 235);
+  }
+  .choose-img{
+      height: 290px;
+      width: 350px;
+      border-radius: 8px;
+  }
+
+  /* get new features page */
+
+  .features{
+      text-align: center;
+      background-color: #473BF0;
+      font-size: 12px;
+  }
+  .features-app{
+      background-color: #FCFDFE;
+  }
+  
+  .ellipse{
+    background-color: white;
+    height: 60px;
+    width: 130px;
+    border-radius: 43%;
+    color: blue;
+}
+.features-card{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.card-img{
+    width: 60px;
+
+    
+    box-shadow: 2px 2px 5px rgb(228, 226, 226);
+}
+.card-padd{
+    margin-right: 30px;
+}
+
+/* GetfreeForm page */
+.Getfree-bg{
+    
+    background-color: #181C2B;
+    background-size: cover;
+    height: 90vh;
+    
+   
+}
+.Getfree-desp{
+    width: 80%;
+    margin: auto;
+
+}
+.circle-i {
+    height: 60px;
+    width: 60px;
+    background-color: #303341;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    
+  }
+  .getfree-bold{
+   font-size: 27px;
+  font-weight: 900;
+  }
+  .getfree-small{
+      font-size: 12px;
+  }
+  .getfree-form{
+      background-color: white;
+      color: black;
+      width: 60%;
+      margin: auto;
+      border-radius: 15px;
+      box-shadow: 2px 3px rgb(255, 254, 254);
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #473BF0;
+    color: white;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 7px;
+    
+    
+    cursor: pointer;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  label{
+      font-weight: bolder;
+      
+  }
+
+  .subscribe-bold{
+    font-size: 23px;
+   font-weight: 900;
+   
+   }
+   .subscribe{
+    width: 60%;
+    margin: auto;
+   }
+   .subscribe-form{
+       width: 60%;
+       margin: auto;
+   }
+   .subscribe button{
+       background-color: blue;
+   }
+
+   /* Contact page */
+   .contact-i{
+       color: #68D584;
+       
+   }
+   
+    ul li{
+    list-style: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 13px;
+    }
+   /* AddtoCart page */
+  .cartNav{
+      font-size: 30px;
+      font-weight: 900;
+  }
+  .cart-col1{
+      width: 100px;
+      height: 100px;
+      border-radius: 6px;
+      
+  }
+  .addto-Btn{
+      background-color: #473BF0;
+  }
+ .cart-col2{
+     box-shadow: 1px 2px rgb(233, 229, 229);
+ }
+ .small-circle{
+    height: 27px;
+    width: 27px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+ }
+ 
+ /* Products page */
+ .products{
+     background-color: #ECF2F7;
+ }
+ .products i{
+     color: #FCAD37;
+ }
+ .product-cart{
+     height: 260px;
+     width: 240px;
+     margin: auto;
+     padding: 45px;
+     background-color: white;
+     border-radius: 9px;
+     box-shadow: 2px 3px rgb(235, 234, 234);
+
+ }
+
+
+
+ /* footer page */
+ .footer{
+     background-color: #13151C;
+ }
+ .heartfooter{
+     color: #3A97D6;
+ }
+
+
+ /* media query */
